@@ -39,7 +39,7 @@ const FinalCta:React.FC =()=>{
     	              <h1 className="text-4xl text-red lg:text-6xl font-bold mb-2">KAURA CHICKEN</h1>
     	              <h1 className="text-4xl text-green lg:text-5xl font-bold">Enterprise</h1>
     	            </div>
-    	            <p className="text-lg lg:text-xl max-w-2xl text-center">
+    	            <p className="text-lg lg:text-xl max-w-2xl text-start">
     	              Our commitment begins at the very start of life—monitoring each bird from incubation to processing—ensuring quality at every stage. Recognized worldwide for innovation in supply chain visibility, we guarantee complete transparency from farm to fork.
     	            </p>
     	        </div>
