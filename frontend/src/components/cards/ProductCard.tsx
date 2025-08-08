@@ -2,7 +2,7 @@ import React from "react";
 
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { faArrowRight,faExpand } from "@fortawesome/free-solid-svg-icons";
 
 
 
@@ -21,6 +21,9 @@ interface ProductCardProps {
 const ProductCard: React.FC<ProductCardProps> = ({name,image,image2,image_description,description,unit,price}) => {
     return (
         <div className="product-card rounded-lg h-[500px] bg-red relative overflow-hidden group" data-aos="zoom-in">
+            <button className="absolute w-10 h-10 top-2 right-2 text-orangered font-extrabold text-3xl flex items-center justify-center z-5">
+                <FontAwesomeIcon icon={faExpand}/>
+            </button>
             <div className="card-banner w-full h-full rounded-lg">
                 <img src={image} alt={image_description} className="w-full h-full rounded-lg"/>
             </div>
