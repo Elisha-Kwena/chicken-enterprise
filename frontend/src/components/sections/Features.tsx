@@ -43,7 +43,7 @@ const Feature:React.FC = () =>{
             <p className="text-left text-sm lg:text-xl" data-aos="fade-up">100% Satisfaction Guarantee: if you don't taste the difference in your first order, we'll refund your payment, no questions asked.</p>
             <p className="text-left mb-4 text-xl lg:text-2xl" data-aos="fade-up">Ready to experience the Kaura difference?</p>
             <div className=" flex items-center justify-start gap-3"data-aos="fade-up">
-                <Link to="" className="flex items-center flex-row justify-center text-[10px] lg:text-md gap-2 bg-orangered text-white font-bold p-3 px-8 rounded-md">
+                <Link to="" className="flex items-center flex-row justify-center text-[10px] lg:text-lg gap-2 bg-orangered text-white font-bold p-3 px-8 rounded-md">
                     🛒 Order Now
                 </Link>
                 <a href="tel:+257xxxxxxxxx" className="flex text-[12px] lg:text-lg items-center justify-center gap-2 bg-green text-white font-bold p-3 px-8 rounded-md">
