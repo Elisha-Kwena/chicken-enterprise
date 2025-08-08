@@ -11,7 +11,7 @@ import Footer from "../../components/sections/Footer";
 const HomePage:React.FC = () => {
     return(
         <>
-        <main className="w-full h-full pt-[60px] lg:pt-[65px] flex flex-col lg:gap-20">
+        <main className="w-full h-full pt-[60px] lg:pt-[65px] flex flex-col lg:gap-20 overflow-hidden">
         <section className="hero w-full h-[320px] lg:h-[calc(100vh-65px)] ">
                 <Hero/>
             </section>
