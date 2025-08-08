@@ -22,7 +22,7 @@ const FeedCard:React.FC<feedProps> =({quote,author,role,location,rating,recency,
     const startnumbers = Math.floor(rating * 10)/ 5;
     return(
         <>
-        <div className="feed-card p-3 rounded-md border border-black/50 backdrop-blur-lg h-[300px] w-full lg:w-[500px] flex flex-col gap-1">
+        <div className="feed-card p-3 rounded-md border border-black/50 backdrop-blur-lg lg:h-[300px] h-[250px] w-full lg:w-[500px] flex flex-col gap-1">
             <div className="topcard w-full flex items-center justify-start gap-4">
                 <div className="profile lg:w-[100px] lg:h-[100px] w-[50px] h-[50px] ">
                     <img src={image} alt={image_description} className="w-full h-full rounded-full"/>
@@ -33,7 +33,7 @@ const FeedCard:React.FC<feedProps> =({quote,author,role,location,rating,recency,
                 </div>
             </div>
             <div className="feed-details w-full flex-grow">
-                <p className="text-start mt-3 text-md lg:text-lg">{quote}</p>
+                <p className="text-start mt-3 text-[12px] lg:text-lg">{quote}</p>
             </div>
             <div className="ratings w-full flex items-center justify-start gap-4">
                 <Rating rating={rating}/>
@@ -42,15 +42,15 @@ const FeedCard:React.FC<feedProps> =({quote,author,role,location,rating,recency,
             <div className="date w-full flex items-center justify-between">
                 <div className="left flex items-center justify-center gap-2">
                     <span>
-                        <FontAwesomeIcon icon={faLocationDot} className="text-red text-md lg:text-2xl"/>
+                        <FontAwesomeIcon icon={faLocationDot} className="text-red text-sm lg:text-2xl"/>
                     </span>
-                    <p className="text-sm lg:text-xl">{location}</p>
+                    <p className="text-[10px] lg:text-xl">{location}</p>
                 </div>
                 <div className="right flex items-center justify-center gap-2">
                     <span>
-                        <FontAwesomeIcon icon={faCalendar} className="text-blue-600 text-md lg:text-lg"/>
+                        <FontAwesomeIcon icon={faCalendar} className="text-blue-600 text-sm lg:text-lg"/>
                     </span>
-                    <p className="text-sm lg:text-lg">{recency}</p>
+                    <p className="text-[10px] lg:text-lg">{recency}</p>
                 </div>
             </div>
         </div>

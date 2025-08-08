@@ -30,8 +30,8 @@ const FeedCaroussel:React.FC = () =>{
             <div className="feed-background w-full h-full bottom-0 left-0 absolute px-16 ">
                 <img src={banner3} alt="" />
             </div>
-            <div className="absolute lg:w-[100px] h-full left-0 z-10 bg-gradient-to-r from-white to-transparent"></div>
-            <div className="absolute lg:w-[100px] h-full right-0 z-10 bg-gradient-to-l from-white to-transparent"></div>
+            <div className="absolute lg:w-[100px] w-[50px] h-full left-0 z-10 bg-gradient-to-r from-white to-transparent"></div>
+            <div className="absolute lg:w-[100px] w-[50px] h-full right-0 z-10 bg-gradient-to-l from-white to-transparent"></div>
             <div className="nav-buttons flex gap-2 absolute z-10 right-2 lg:top-14 -top-14">
                 <button
                 className='flex items-center justify-center bg-transparent text-2xl text-red w-12 h-12 rounded-full border-[3px] border-red transition-all duration-300 hover:bg-red hover:text-white'

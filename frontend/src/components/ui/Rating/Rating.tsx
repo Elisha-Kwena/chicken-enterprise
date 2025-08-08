@@ -17,7 +17,7 @@ const Rating:React.FC<ratingProps> = ({rating}) =>{
                 {Array.from({ length: maxRating }, (_, index) => (
                     <span 
                     key={index} 
-                    className={`star text-md lg:text-2xl  ${index < stars ? "text-yellow" : "text-gray-400"}`}>
+                    className={`star text-sm lg:text-2xl  ${index < stars ? "text-yellow" : "text-gray-400"}`}>
                         <FontAwesomeIcon icon={faStar}/>
                     </span>
                 ))}

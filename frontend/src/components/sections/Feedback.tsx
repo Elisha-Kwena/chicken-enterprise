@@ -43,11 +43,11 @@ const Feedback:React.FC = () =>{
         {/* feeds */}
         <div className="flex lg:flex-row lg:mt-0 mt-10  flex-col items-center justify-between lg:gap-4 w-[95%] mx-auto relative gap-20">
             <div className="left w-full lg:w-[40%] flex flex-col items-start justify-center gap-0">
-                <h1 className="text-3xl lg:mb-0 mb-4 lg:text-4xl text-black font-extrabold">Hear From Our Happy Customers</h1>
-                <p className="text-2xl font-bold text-orangered">Dont just take our word for it</p>
-                <p className="text-black text-lg text-start l">From Nairobi homes to premier restaurants, Kenyan families and chefs trust Kaura Chicken for quality they can taste. Here's what they have to say:</p>
+                <h1 className="text-2xl lg:text-3xl lg:mb-0 mb-4 text-black font-extrabold">Hear From Our Happy Customers</h1>
+                <p className="text-lg lg:text-2xl font-bold text-orangered">Dont just take our word for it</p>
+                <p className="text-black text-sm lg:text-lg text-start l">From Nairobi homes to premier restaurants, Kenyan families and chefs trust Kaura Chicken for quality they can taste. Here's what they have to say:</p>
                 <div className="mt-4 w-full flex items-center justify-start gap-2">
-                    <Link to="" className="bg-orangered font-bold hover:bg-yellow text-white hover:text-black p-3 px-5 rounded-md transition-all duration-300">Make an Order</Link>
+                    <Link to="" className="bg-orangered font-bold hover:bg-yellow text-white hover:text-black p-3 px-5 rounded-md transition-all duration-300 text-sm lg:text-md">Make an Order</Link>
                     <p>Join 1,000+ Satisfied Customers</p>
                 </div>
             </div>

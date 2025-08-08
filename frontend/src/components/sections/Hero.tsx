@@ -48,10 +48,10 @@ const Hero:React.FC =()=> {
                     </div>
                     <div className="w-full h-full relative flex flex-col items-start justify-center gap-2">
                         <div className="w-full lg:w-2/3 flex flex-col items-start justify-center gap-1 p-2 pl-8 lg:pl-20 text-start">
-                            <h1 className="text-orangered text-3xl lg:text-7xl font-bold lg:font-['impact']">{card.title}</h1>
+                            <h1 className="text-orangered text-2xl lg:text-7xl font-bold lg:font-['impact']">{card.title}</h1>
                             <div className="w-full">
                                 {card.description.map((item, index) =>(
-                                    <p key={index} className='font-fredoka text-white font-extrabold text-md lg:text-2xl'>{item}</p>
+                                    <p key={index} className=' text-white font-extrabold text-sm lg:text-2xl'>{item}</p>
                                 ))}
                             </div>
                             <div className="flex items-center justify-start gap-2">
