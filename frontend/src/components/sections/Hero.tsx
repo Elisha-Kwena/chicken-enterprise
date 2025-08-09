@@ -27,7 +27,7 @@ const Hero:React.FC =()=> {
           delay: 3500,
           disableOnInteraction: false,
           waitForTransition:true,
-          pauseOnMouseEnter:true,
+          pauseOnMouseEnter:false,
         }}
         speed={600}
         pagination={{
