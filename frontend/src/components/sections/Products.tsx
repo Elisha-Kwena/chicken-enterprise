@@ -11,7 +11,7 @@ import ProductCard from "../cards/ProductCard";
 const Products:React.FC = () =>{
     return(
         <>
-        <div className="w-full h-full relative py-6">
+        <div className="w-full h-auto relative py-6 overflow-hidden">
             <div className="hidden lg:block absolute w-full top-0 left-0 h-full bottom-0">
                 <img src={banner} alt="" className="w-full h-full object-cover" />
             </div>

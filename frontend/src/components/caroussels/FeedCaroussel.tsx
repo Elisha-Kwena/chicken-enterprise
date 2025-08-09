@@ -49,7 +49,7 @@ const FeedCaroussel:React.FC = () =>{
             <div className="feeds-box w-full">
                 <Swiper
                     slidesPerView={1.5} // Default for mobile
-                    spaceBetween={10}
+                    spaceBetween={5}
                     loop={true}
                     centeredSlides={true}
                     autoplay={{

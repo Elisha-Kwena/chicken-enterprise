@@ -21,7 +21,7 @@ const HomePage:React.FC = () => {
             <section className="products lg:h-[calc(100vh-65px)] relative">
                 <Products/>
             </section>
-            <section className="features lg:min-h-[calc(100vh-65px)] lg:mt-0 mt-20">
+            <section className="features lg:min-h-[100vh] lg:mt-0 mt-20">
                 <Feature/>
             </section>
             <section className="feedback lg:mt-0 mt-20 h-auto">

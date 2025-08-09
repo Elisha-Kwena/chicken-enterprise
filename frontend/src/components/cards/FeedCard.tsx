@@ -22,7 +22,7 @@ const FeedCard:React.FC<feedProps> =({quote,author,role,location,rating,recency,
     const startnumbers = Math.floor(rating * 10)/ 5;
     return(
         <>
-        <div className="feed-card p-3 rounded-md border border-black/50 backdrop-blur-lg lg:h-[300px] h-[250px] w-full lg:w-[500px] flex flex-col gap-1">
+        <div className="feed-card p-3 rounded-md border border-black/50 backdrop-blur-lg lg:h-[300px] h-[250px] w-full lg:w-[470px] flex flex-col gap-1">
             <div className="topcard w-full flex items-center justify-start gap-4">
                 <div className="profile lg:w-[100px] lg:h-[100px] w-[50px] h-[50px] ">
                     <img src={image} alt={image_description} className="w-full h-full rounded-full"/>
