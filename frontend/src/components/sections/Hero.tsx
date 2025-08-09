@@ -24,12 +24,12 @@ const Hero:React.FC =()=> {
         centeredSlides={true}
         loop={true}
         autoplay={{
-          delay: 2500,
+          delay: 3500,
           disableOnInteraction: false,
-          waitForTransition:false,
+          waitForTransition:true,
           pauseOnMouseEnter:true,
         }}
-        speed={1000}
+        speed={600}
         pagination={{
           clickable: true,
         }}
